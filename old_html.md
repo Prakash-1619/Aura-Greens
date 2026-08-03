@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Greens | Fuel Your Aura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background: url('background.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            display: flex; justify-content: center; align-items: center; min-height: 100vh;
+            color: #333;
+        }
+        .card { 
+            background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);
+            width: 90%; max-width: 450px; padding: 40px; border-radius: 30px;
+            text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .logo { width: 120px; margin-bottom: 20px; transition: transform 0.3s; }
+        .logo:hover { transform: scale(1.05); }
+        h1 { font-size: 1.8rem; color: #2d5a27; margin-bottom: 10px; }
+        p.desc { font-size: 0.95rem; margin-bottom: 25px; color: #555; line-height: 1.5; }
+        
+        .btn { 
+            display: block; width: 100%; padding: 15px; margin: 15px 0;
+            background: #2d5a27; color: white; text-decoration: none;
+            border-radius: 50px; font-weight: 600; transition: all 0.3s;
+            border: 2px solid #2d5a27;
+        }
+        .btn:hover { background: white; color: #2d5a27; }
+        .footer { margin-top: 30px; font-size: 0.8rem; color: #888; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="logo.png" alt="Aura Greens" class="logo">
+    <h1>Aura Greens</h1>
+    <p class="desc">
+        Fuel your aura with nature’s purest greens. We bring you nutrient-dense, locally grown microgreens, sustainably farmed and harvested fresh to nourish your body and elevate your lifestyle. 
+        <br><br><b>Eat Clean. Live Green. Glow Naturally.</b>
+    </p>
+
+    <a href="https://www.instagram.com/auragreens.in" class="btn">📸 Click here for more info</a>
+    <a href="https://drive.google.com/file/d/1gIKGWc3byJnEn_gQmA7i43bbcMe49r6i/view" class="btn">✨ Tiny Aura has something for you</a>
+    <a href="https://wa.me/919380252292" class="btn">🛒 Click here to order</a>
+
+    <div class="footer">
+        📍 HSR Bangalore | Harvested Fresh Daily
+    </div>
+</div>
+
+</body>
+</html>
+
